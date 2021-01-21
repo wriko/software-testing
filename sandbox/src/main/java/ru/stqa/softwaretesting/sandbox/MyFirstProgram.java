@@ -3,13 +3,26 @@ package ru.stqa.softwaretesting.sandbox;
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        String somebady = "world";
+        hello("ww");
+
+        double ar = 5;
+        System.out.println("Площадь квадрата со стороной " + ar + " = " + area(ar));
+
+        double a = 4;
+        double b = 6;
+        System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a,b));
+    }
+
+    public static void hello(String somebady) {
         System.out.println("Hello, " + somebady + "!");
+    }
 
+    public static double area(double len) {
+        return len * len;
+    }
 
-        int x = 8;
-        int s = x * x;
-        System.out.println("Площадь квадрата со стороной " + x + " = " + s);
+    public static double area(double a, double b) {
+        return a * b;
     }
 
 }
