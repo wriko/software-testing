@@ -1,4 +1,4 @@
-package ru.stqa.softwaretesting.sandbox;
+package ru.stqa.softwaretesting.sandbox.sandbox;
 
 public class Rectangle {
 

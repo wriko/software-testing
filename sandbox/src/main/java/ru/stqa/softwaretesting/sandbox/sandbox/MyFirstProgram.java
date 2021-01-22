@@ -1,6 +1,4 @@
-package ru.stqa.softwaretesting.sandbox;
-
-import java.util.Queue;
+package ru.stqa.softwaretesting.sandbox.sandbox;
 
 public class MyFirstProgram {
 
