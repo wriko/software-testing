@@ -3,12 +3,11 @@ package ru.stqa.softwaretesting.sandbox;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
-public class SquareTests {
+public class PointTests {
 
     @Test
     public void testArea() {
-        Square s = new Square(5);
-        Assert.assertEquals(s.area(), 21.0);
+        Point p = new Point(4,22,1,33);
+        Assert.assertEquals(p.area(), 11.40175425099138);
     }
 }
