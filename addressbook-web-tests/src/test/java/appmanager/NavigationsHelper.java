@@ -3,14 +3,13 @@ package appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class NavigationsHelper {
-    private ChromeDriver wd;
+public class NavigationsHelper extends HelperBase{
 
     public NavigationsHelper(ChromeDriver wd) {
-        this.wd = wd;
+        super(wd);
     }
 
     public void gotoGroupPage() {
-        wd.findElement(By.linkText("groups")).click();
+        click(By.linkText("groups"));
     }
 }
