@@ -1,0 +1,4 @@
+ru/stqa/softwaretesting/addressbook/GroupCreationTests.java
+ ru.stqa.softwaretesting.addressbook.GroupCreationTests
+ru/stqa/softwaretesting/addressbook/UntitledTestCase.java
+ ru.stqa.softwaretesting.addressbook.UntitledTestCase
